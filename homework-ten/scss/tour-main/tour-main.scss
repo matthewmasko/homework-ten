@@ -1,0 +1,122 @@
+.tour-main {
+  max-width: 1280px;
+  width: 100%;
+  min-height: 300px;
+//   background-color: cadetblue;
+  margin: 0 auto;
+
+
+  .tour-banner {
+    max-width: 981px;
+    height: 300px;
+    background-color: blue;
+    margin: 0 auto;
+    background-image: url(../images/tours-header.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: proxima-nova;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .tours-container {
+    min-height: 100%;
+    width: 100%;
+    max-width: 1280px;
+    // background-color: blueviolet;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+
+    .tour-photo {
+      position: relative;
+      width: 236px;
+      height: 304px;
+      min-width: 236px;
+      min-height: 304px;
+      // background-color: brown;
+      margin: 10px;
+      padding-bottom: 50px;
+
+      img {
+        position: absolute;
+        width: 236px;
+        height: 304px;
+      }
+
+      .tour-text {
+        position: absolute;
+        height: 131px;
+        width: 100%;
+        // background-color: white;
+
+        .tour-country {
+          height: 60px;
+          width: 100%;
+          font-family: proxima-nova;
+          font-size: 60px;
+          color: white;
+          // background-color: red;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 10px;
+          margin-top: 50px;
+        }
+
+        .tour-price {
+          height: 30px;
+          width: 100%;
+          font-family: proxima-nova;
+          font-size: 30px;
+          color: white;
+          // background-color: green;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 10px;
+        }
+
+        .tour-button {
+          position: absolute;
+          height: 41px;
+          width: 100%;
+          // background-color: blue;
+          display: flex;
+          justify-content: center;
+
+          button {
+            height: 40.04px;
+            width: 121.62px;
+            background-color: #79addc;
+            color: white;
+            border-style: none;
+            font-family: gill-sans;
+            font-size: 15px;
+            border-radius: 20px;
+
+            a {
+                color: white;
+                font-family: gill-sans;
+                font-size: 15px;
+                text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .tours-container {
+    flex-direction: column;
+    align-items: center;
+    min-height: 900px;
+  }
+}

@@ -1,0 +1,93 @@
+
+.special-offers-wrapper {
+
+    min-height: 100%;
+    width: 1000px;
+    // background-color: blueviolet;
+    padding-top: 64.5px;
+    margin: 0 auto;
+
+    .offers-title {
+        height: 35px;
+        width: 200px;
+        // background-color: aqua;
+        font-family: proxima-nova;
+        font-size: 30px;
+        border-bottom: 2px;
+        border-bottom-style: solid;
+        margin-bottom: 20px;
+
+
+    }
+
+    .place-container {
+        min-height: 300px;
+        width: 60%;
+        min-width: 400px;
+        // background-color: brown;
+        display: flex;
+        margin-bottom: 50px;
+
+        .special-photo {
+            height: 287px;
+            width: 199px;
+            // background-color: chartreuse;
+
+            img {
+                height: 287px;
+                width: 199px;
+            }
+        }
+
+        .place-text {
+            width: 75%;
+            height: 287px;
+            // background-color: darkblue;
+            padding-left: 10px;
+
+            .special-title {
+
+                height: 50px;
+                width: 50%;
+                min-width: 200px;
+                // background-color: yellow;
+                font-family: proxima-nova;
+                font-size: 30px;
+                border-bottom-style: solid;
+                border-bottom-width: 2px;
+                margin-bottom: 30px;
+
+            }
+
+            .special-text {
+
+                min-height: 50px;
+                width: 90%;
+                // background-color: darkgreen;   
+                font-family: gill-sans;
+                font-size: 16px; 
+                    }
+
+                    .special-button {
+                        height: 40px;
+                        width: 236px;
+                        // background-color: white;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 58px;
+                
+                        button {
+                            width: 133px;
+                            height: 40px;
+                            border-radius: 38px;
+                            background-color: #79ADDC;
+                            color: white;
+                            border-style: none;
+                        }
+                    }
+
+        }
+    }
+
+}

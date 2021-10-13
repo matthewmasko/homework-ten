@@ -1,0 +1,201 @@
+.features {
+    max-width: 1280px;
+    width: 100%;
+    min-height: 300px;
+    // background-color: aqua;
+    margin: 0 auto;
+
+
+    .feature-locations {
+        min-height: 304px;
+        width: 100%;
+        // background-color: seagreen;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -50px;
+        
+        
+        .feature-photoOne {
+        
+            height: 304px;
+            width: 236px;
+            background-color: fuchsia;
+            background-image: url(../images/special-offer-01.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 56px;
+            margin-bottom: 20px;
+        
+        
+            .feature-title {
+        
+                height: 60px;
+                width: 236px;
+                // background-color: yellow;
+                font-family: proxima-nova;
+                font-size: 60px;
+                color: white;
+                display: flex;
+                justify-content: center;
+            }
+        
+            .feature-price {
+        
+                height: 30px;
+                width: 236px;
+                // background-color: green;
+                font-family: proxima-nova;
+                font-size: 30px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        
+            .feature-button {
+                height: 40px;
+                width: 236px;
+                // background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 58px;
+        
+                button {
+                    width: 133px;
+                    height: 40px;
+                    border-radius: 38px;
+                    background-color: #79ADDC;
+                    color: white;
+                    border-style: none;
+                }
+            }
+        }
+        
+        .feature-photoTwo {
+        
+            height: 304px;
+            width: 236px;
+            // background-color: fuchsia;
+            background-image: url(../images/special-offer-02.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 56px;
+            margin-bottom: 20px;
+        
+        
+            .feature-title {
+        
+                height: 60px;
+                width: 236px;
+                // background-color: yellow;
+                font-family: proxima-nova;
+                font-size: 60px;
+                color: white;
+                display: flex;
+                justify-content: center;
+            }
+        
+            .feature-price {
+        
+                height: 30px;
+                width: 236px;
+                // background-color: green;
+                font-family: proxima-nova;
+                font-size: 30px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        
+            .feature-button {
+                height: 40px;
+                width: 236px;
+                // background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 58px;
+        
+                button {
+                    width: 133px;
+                    height: 40px;
+                    border-radius: 38px;
+                    background-color: #79ADDC;
+                    color: white;
+                    border-style: none;
+                }
+            }
+        }
+        .feature-photoThree {
+        
+            height: 304px;
+            width: 236px;
+            // background-color: fuchsia;
+            background-image: url(../images/special-offer-01.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 56px;
+            margin-bottom: 20px;
+        
+        
+            .feature-title {
+        
+                height: 60px;
+                width: 236px;
+                // background-color: yellow;
+                font-family: proxima-nova;
+                font-size: 60px;
+                color: white;
+                display: flex;
+                justify-content: center;
+            }
+        
+            .feature-price {
+        
+                height: 30px;
+                width: 236px;
+                // background-color: green;
+                font-family: proxima-nova;
+                font-size: 30px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        
+            .feature-button {
+                height: 40px;
+                width: 236px;
+                // background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 58px;
+        
+                button {
+                    width: 133px;
+                    height: 40px;
+                    border-radius: 38px;
+                    background-color: #79ADDC;
+                    color: white;
+                    border-style: none;
+                }
+            }
+        }
+        
+        }
+}
+
+@media only screen and (max-width: 700px) {
+ 
+    .feature-locations {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+  }

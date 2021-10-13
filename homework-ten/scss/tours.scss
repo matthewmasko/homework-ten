@@ -1,0 +1,135 @@
+.tour-banner {
+    // background-color: red;
+    height: 400px;
+width: 100%;
+max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        position: absolute;
+        margin-top: 10px;
+        color: white;
+        font-family: proxima-nova;
+        font-size: 80px;
+
+    }
+
+    h2 {
+        position: absolute;
+        margin-top: 350px;
+        text-align: right;
+        color: white;
+        font-family: proxima-nova;
+        font-size: 30px;
+        margin-right: -700px
+    }
+
+    img {
+        width: 981px;
+        height: 400px;
+    }
+}
+
+.trinity-photos {
+    width: 981px;
+    height: 347px;
+    // background-color: green;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .photo-left {
+width: 298px;
+height: 347px;
+// background-color: purple;
+
+img {
+    width: 298px;
+    height: 347px;
+}
+    }
+
+    .photo-center {
+        width: 298px;
+        height: 347px;
+        // background-color: purple;
+        
+        img {
+            width: 298px;
+            height: 347px;
+        }
+            }
+
+            .photo-right {
+                width: 298px;
+                height: 347px;
+                // background-color: purple;
+                
+                img {
+                    width: 298px;
+                    height: 347px;
+                }
+                    }
+
+
+}
+
+.tours-text {
+    max-width: 1280px;
+    width: 100%;
+    min-height: 100px;
+    // background-color: brown;
+    padding-left: 150px;
+    margin-bottom: 50px;
+
+    .text-title {
+        max-width: 1280px;
+        width: 20%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    // background-color: aqua;
+    margin-top: 50px;
+    border-bottom-style: solid;
+        border-bottom-color: black;
+        
+    
+    h1 {
+        font-family: proxima-nova;
+        font-size: 60px;
+        min-height: 300px;
+    }
+    }
+
+    .tours-details {
+        max-width: 1280px;
+        width: 100%;
+    min-height: 100px;
+    // background-color: antiquewhite;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: gill-sans;
+    font-size: 16px;
+    letter-spacing: 19;
+   padding-right: 149px;
+
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .trinity-photos {
+      flex-direction: column;
+      align-items: center;
+      height: 1400px;
+
+      img {
+          padding-bottom: 10px;
+      }
+    }
+
+}

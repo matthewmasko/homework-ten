@@ -1,0 +1,100 @@
+.contact-wrapper {
+  min-height: 800px;
+  width: 100%;
+//   background-color: firebrick;
+  padding-top: 64.5px;
+  margin: 0 auto;
+
+  .contact-title {
+    height: 35px;
+    width: 150px;
+    // background-color: aqua;
+    font-family: proxima-nova;
+    font-size: 30px;
+    margin-left: 150px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    margin-bottom: 20px;
+  }
+
+  .contact-container {
+    min-height: 442px;
+    width: 80%;
+    margin: 0 auto;
+    // background-color: teal;
+    margin-left: 150px;
+    display: flex;
+
+    .map {
+      width: 400px;
+      height: 442px;
+    //   background-color: yellowgreen;
+
+      img {
+        width: 400px;
+        height: 442px;
+      }
+    }
+
+    .form {
+      width: 550px;
+      height: 442px;
+    //   background-color: lightgreen;
+      padding-left: 20px;
+      padding-top: 20px;
+      flex-direction: column;
+
+      input {
+        height: 80px;
+        width: 90%;
+        margin-bottom: 30px;
+        text-align: left;
+      }
+    }
+  }
+
+  .comment {
+    width: 480px;
+    height: 200px;
+    // background-color: indigo;
+
+    input {
+      height: 300px;
+    }
+  }
+
+  .contact-info {
+    height: 180px;
+    width: 80%;
+    // background-color: forestgreen;
+    margin-left: 150px;
+    margin-top: 30px;
+    display: flex;
+
+    .address {
+      height: 180px;
+      width: 39%;
+    //   background-color: blue;
+      font-family: gill-sans;
+      font-size: 18px;
+
+    }
+
+    .button {
+      height: 180px;
+      width: 61%;
+    //   background-color: red;
+
+      button {
+        height: 40.04px;
+        width: 121.62px;
+        background-color: #79ADDC;
+        color: white;
+        border-style: none;
+        font-family: gill-sans;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    }
+  }
+}

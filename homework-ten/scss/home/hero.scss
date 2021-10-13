@@ -1,0 +1,139 @@
+nav {
+    position: fixed;
+    height: 92.5px;
+    width: 80%;
+    // background-color: blue;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+    .title {
+        color:black;
+        border-color: black;
+        border-width: 10px;
+        width: 40%;
+        height: 92.5px;
+        // background-color: lightgreen;
+        display: flex;
+        align-items: center;
+
+        .title-box {
+            width: 80px;
+            height: 42px;
+            // background-color: lightslategray;
+            display: flex;
+            align-items: center;
+            padding-top: 28px;
+            justify-content: center;
+            font-family: gill-sans;
+            font-size: 20px;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+        }
+    }
+
+    .links {
+        width: 43%;
+        height: 92.5px;
+        // background-color: lightblue;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 200px;
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-family: gill-sans;
+            font-size: 15px;
+            margin-right: 10px;
+        }
+        span {
+            color: #79ADDC;
+        }
+    }
+
+.hero {
+    width: 100%;
+    max-width: 1280px;
+    height: 600px;
+    // background-color: cadetblue;
+    margin: 0 auto;
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+.hero-callout {
+height: 60px;
+width: 100%;
+// background-color: red;
+display: flex;
+justify-content: center;
+padding-top: 150px;
+
+
+
+p {
+font-family: proxima-nova;
+font-size: 60px;
+font-style: thin;
+color: white;
+font-weight: bolder;
+}
+
+}
+
+.hero-text {
+height: 46px;
+width: 100%;
+margin-top: 30px;
+// background-color: green;
+display: flex;
+justify-content: center;
+padding-top: 100px;
+
+.hero-ipsum {
+    height: 46px;
+    width: 416px;
+    // background-color: deepskyblue;
+    font-family: gill-sans;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+}
+
+.hero-button {
+
+    height: 41px;
+    width: 100%;
+    // background-color: blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+    button {
+        height: 40.04px;
+        width: 121.62px;
+        background-color: #79ADDC;
+        color: white;
+        border-style: none;
+        font-family: gill-sans;
+        font-size: 15px;
+    }
+}
+}
